@@ -20,7 +20,6 @@ margin-bottom: 3.5%;
 
 .row img{
 width: 70%;
-padding: 20px;
 }
 
 .row{
@@ -34,20 +33,24 @@ padding: 20px;
   background-color: white;
   color: #4277bb;
   border-radius: 5px;
-  margin-right: 3%;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
 }
 
-.col-sm a{
+.col-sm p{
   text-decoration: none;
+}
+
+.col-sm p:hover{
+  transition: 250ms;
+  color: white;
 }
 
 .col-sm:hover{  transition: 250ms;
   background-color: #4277bb;
+  color: white;
   }
 
-  .col-sm a:hover{
-    color: white;
-  }
 
 .borderek{
   border-style: solid;
@@ -61,5 +64,7 @@ padding: 20px;
 .borderek{
   margin-bottom: 5%;
 }
+
+
 
 
